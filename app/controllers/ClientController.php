@@ -69,7 +69,7 @@ function taikhoan()
 
                             // anh
                             if ($_FILES["anh_nd"]["size"] == 0) {
-                                $anhErr = " * Không được bỏ trống ảnh";
+                                $anhErr = " * Không được bỏ trống ảnh"; 
                                 $check = false;
                             } else {
                                 $anhErr = validation_img($_FILES["anh_nd"]);

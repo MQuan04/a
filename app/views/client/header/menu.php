@@ -72,9 +72,6 @@
         <ul>
             <li class="active"><a href="index.php">Trang chủ</a></li>
             <li class="active"><a href="index.php?act=all">Sản phẩm</a></li>
-            <li class="active"><a href="#">Tin tức</a></li>
-            <li class="active"><a href="#">Về chúng tôi </a></li>
-
         </ul>
     </nav>
     <div id="mobile-menu-wrap"></div>

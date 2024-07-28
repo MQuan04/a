@@ -231,38 +231,6 @@
               </ul>
             </li>
 
-            <!-- quản lý banner -->
-            <li class="nav-header"></li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">
-                <i class="nav-icon fas fa-edit"></i>
-                <p>
-                  Quản lý banner
-                  <i class="fas fa-angle-left right"></i>
-                </p>
-              </a>
-              <ul class="nav nav-treeview">
-                <li class="nav-item">
-                  <a href="index.php?act=bn&type=list" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>Danh sách banner</p>
-                  </a>
-                </li>
-                <?php
-                if ($_SESSION["admin"]["id_cv"] == 1) {
-                  echo "
-                      <li class='nav-item'>
-                        <a href='index.php?act=bn&type=add' class='nav-link'>
-                          <i class='far fa-circle nav-icon'></i>
-                          <p>Thêm banner</p>
-                        </a>
-                      </li>
-                    ";
-                }
-                ?>
-              </ul>
-            </li>
-
             <!-- quản lý địa chỉ -->
             <?php
             if ($_SESSION["admin"]["id_cv"] == 1) {
